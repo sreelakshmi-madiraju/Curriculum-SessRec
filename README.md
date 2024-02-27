@@ -1,9 +1,12 @@
 # Curriculum-SessRec
 ## Improved Session-based Recommender Systems using Curriculum Learning
+
 This is the code for the paper "Improved Session-based Recommender Systems using Curriculum Learning" (under review). 
 
 ## Datasets
+
 -> The following datasets are used in our experiments. 
+
 YOOCHOOSE: http://2015.recsyschallenge.com/challenge.html or https://www.kaggle.com/chadgostopp/recsys-challenge-2015
 Download yoochoose-clicks.dat from the above link and save the file in Datasets folder 
 
@@ -19,12 +22,19 @@ Example: python preprocess.py --dataset=yoochoose
 -> The required files are already available in the appropriate folders. 
 
 ## Compute TransE Embedding 
+
 -> Run create_transe_emb.py to generate KG triples and compute transe embedding. Parameters are optimized based on validation data.
+
 -> The required files are already available in the appropriate folders. 
+
 ## Run the models
+
 -> train_with_CL.ipynb has code for training models (LSTM, Transformer) with applied curriculum (C1 or C2 or Hybrid or Adaptive) 
+
 -> train_without_CL.ipynb has code for training models (LSTM, Transformer) without curriculum.
+
 ## Requirements
+
 -> TransE embedding is implemented using Ampligraph (https://docs.ampligraph.org/en/1.4.0/generated/ampligraph.latent_features.TransE.html)
 
 -> ampligraph 1.4.0
