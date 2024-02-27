@@ -8,15 +8,19 @@ This is the code for the paper "Improved Session-based Recommender Systems using
 -> The following datasets are used in our experiments. 
 
 YOOCHOOSE: http://2015.recsyschallenge.com/challenge.html or https://www.kaggle.com/chadgostopp/recsys-challenge-2015
+
 Download yoochoose-clicks.dat from the above link and save the file in Datasets folder 
 
 DIGINETICA: http://cikm2016.cs.iupui.edu/cikm-cup or https://competitions.codalab.org/competitions/11161
+
 Download train-item-views.csv from the above link and save the file in Datasets folder
 
 AMAZON: https://jmcauley.ucsd.edu/data/amazon/
+
 Download beauty review data (reviews_Beauty_5.json) from the above link and run pre_process_amazon.py to generate train and test files for AMAZON data
 
 -> Run preprocess.py with dataset name as argument to generate train and test files for YOOCHOOSE and DIGINETICA. (dataset name: diginetica/yoochoose/sample)
+
 Example: python preprocess.py --dataset=yoochoose
 
 -> The required files are already available in the appropriate folders. 
